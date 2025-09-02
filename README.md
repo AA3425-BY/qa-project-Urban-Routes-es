@@ -25,7 +25,7 @@ Se utilizaron técnicas como:
 - Verificar cantidad de helados seleccionados
 - Validar que aparece el modal de “Buscar automóvil” al pedir un taxi
 
-## ▶ Cómo ejecutar las pruebas
+## Como ejecutar las pruebas
 1-Clona el siguiente repositorio en tu computadora (si no lo hiciste aún): git clone git@github.com:username/qa-project-Urban-Routes-es.git
 cd qa-project-Urban-Routes-es
 2-Necesitas tener instalados los paquetes pip install selenium pytest
