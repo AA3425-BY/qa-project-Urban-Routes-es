@@ -1,38 +1,36 @@
-# Proyecto Urban Routes
+# Urban Routes Project
 
-##  Descripción del proyecto
-Este proyecto contiene pruebas automatizadas para validar el flujo de usuario en la aplicación **Urban Routes**.
+## Project Description
+This project contains automated tests to validate the user flow in the **Urban Routes** application.
+The tests are written using the **Page Object Model (POM)** ​​architecture, which allows for a clear and maintainable code structure.
 
-Las pruebas están escritas utilizando la arquitectura **Page Object Model (POM)**, lo que permite una estructura clara y mantenible del código.
+## Technologies and Techniques Used
 
-##  Tecnologías y técnicas utilizadas
+- **Language**: Python 3.13
+- **Test Automation**: Selenium WebDriver
+- **Test Framework**: Pytest
+- **Architecture**: Page Object Model (POM)
+- **Suggested IDE**: PyCharm
 
-- **Lenguaje**: Python 3.13
-- **Automatización de pruebas**: Selenium WebDriver
-- **Framework de pruebas**: Pytest
-- **Arquitectura**: Page Object Model (POM)
-- **IDE sugerido**: PyCharm
+Techniques used included:
+- Explicit waits to ensure that elements are available before interacting with them.
+- Asserts to validate the expected behavior of the interface.
+- Robust locators using `By.XPATH` and `By.CLASS_NAME`.
+  
+## Some Implemented Tests
 
-Se utilizaron técnicas como:
-- Esperas explícitas para asegurar que los elementos estén disponibles antes de interactuar con ellos.
-- Asserts para validar el comportamiento esperado de la interfaz.
-- Localizadores robustos utilizando `By.XPATH`, `By.CLASS_NAME`.
+- Add a credit card as a payment method
+- Verify the number of ice creams selected
+- Validate that the "Find a Car" modal appears when requesting a taxi
 
-
-## Algunas Pruebas implementadas
-
-- Agregar una tarjeta de crédito como método de pago
-- Verificar cantidad de helados seleccionados
-- Validar que aparece el modal de “Buscar automóvil” al pedir un taxi
-
-## Como ejecutar las pruebas
-1-Clona el siguiente repositorio en tu computadora (si no lo hiciste aún): git clone git@github.com:username/qa-project-Urban-Routes-es.git
+## How to Run the Tests
+1- Clone the following repository to your computer (if you haven't already): git clone git@github.com:username/qa-project-Urban-Routes-es.git
 cd qa-project-Urban-Routes-es
-2-Necesitas tener instalados los paquetes pip install selenium pytest
-Configura el WebDriver para el navegador que usarás (ChromeDriver) y asegurate de que esté accesible en tu PATH.
-Ejecuta las pruebas usando Pytest
+2- You need to have the following packages installed: pip install selenium pytest
+Configure the WebDriver for the browser you will use (ChromeDriver) and make sure it is accessible in your PATH.
+Run the tests using Pytest
 
-## Autora
+## Author
 Adiaris Santana
 GitHub: AA3425-BY
 Sprint 8
